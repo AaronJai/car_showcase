@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚗 car_showcase
+This Car Showcase website utilises next.js and server-side rendering capabilities that presents various car types. It presents detailed information in a well-maintained format, advanced filtering, and pagination support for enhancing user experience.
 
-## Getting Started
+## 😢 Issue
+The car images in our cards are fetched from an API from Imagin Studios, whereby the current one used is now likely to be invalid and requires authorised business users, including other services I could find.
 
-First, run the development server:
+## 🛠️ Tech Stack
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👑 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔍 **Home Page**: Showcases a display of cars fetched from third-party APIs (one currently broken) which provides an engaging introduction to a diverse range of cars.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔍 **Exploration and Filtering**: Users can explore a variety of cars from around the world, where criteria (e.g., model, manufacturer, fuel type) can be met via the search and filter system.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🔍 **Server-Side Rendering**: Transition from client-side to server side rendering which enhances performance and smoother browsing experience. The final commit does convert elements to client side as a educational tool of what it looks like to implement, but also to fix a persistent scroll-reset bug from previous next.js versions.
 
-## Learn More
+🔍 **Pagination**: Easy navigation through large datasets of cars.
 
-To learn more about Next.js, take a look at the following resources:
+🔍 **MetaData Optimisation and SEO**: Optimises metadata for car listing, enhanced search engine optimisation (SEO) and ensuring better visibility on search engine results page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔍 **TypeScript Types**: TypeScript provides robust typing for enhanced code quality and better development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🔍 **Responsive Website Design**: Website is visually pleasing and responsive, providing optimal experience across various device sizes.
